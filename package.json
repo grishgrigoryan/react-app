@@ -1,0 +1,21 @@
+{
+  "name": "react-app",
+  "version": "0.0.1",
+  "scripts": {
+    "compile" : "tsc -w",
+    "browserify" : "watchify ./out/index.js -o ./public/js/bundle.js -v"
+  },
+  "dependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "react-router": "^2.2.4"
+  },
+  "devDependencies": {
+    "@types/promise": "*",
+    "@types/react": "^15.0.5",
+    "@types/react-dom": "^0.14.22",
+    "@types/react-router": "^3.0.0",
+    "typescript":"2.2.2",
+    "watchify" : "*"
+  }
+}

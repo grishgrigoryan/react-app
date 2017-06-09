@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "./out/",
+    "noImplicitAny": false,
+    "noEmitOnError": false,
+    "experimentalDecorators":true,
+    "removeComments": false,
+    "module": "commonjs",
+    "sourceMap": true,
+    "target": "ES6",
+    "jsx": "react"
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
